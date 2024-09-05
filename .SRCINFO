@@ -1,6 +1,6 @@
 pkgbase = gitbutler-bin
 	pkgdesc = Version control client, backed by Git, powered by Tauri/Rust/Svelte
-	pkgver = 0.12.22
+	pkgver = 0.12.23
 	pkgrel = 1
 	url = https://gitbutler.com/
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = gitbutler-bin
 	depends = libayatana-appindicator
 	depends = webkit2gtk
 	depends = gtk3
-	source = https://releases.gitbutler.com/releases/release/0.12.22-1224/linux/x86_64/git-butler_0.12.22_amd64.deb
-	sha256sums = 8d1ebb64c6a0b63b14507052c5ad51cdfc995a3ed4c4323568038159b9f8770b
+	source = https://releases.gitbutler.com/releases/release/0.12.23-1228/linux/x86_64/git-butler_0.12.23_amd64.deb
+	sha256sums = 4997f709ab753a6b8821d66c24525698a81b61e2d6ebb54eeeb5630abb53391a
 
 pkgname = gitbutler-bin
