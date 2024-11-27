@@ -14,5 +14,5 @@ sed -i "s/pkgver=.*/pkgver=$VER/" PKGBUILD
 sed -i "s/_pkgvernum=.*/_pkgvernum=$BUILD/" PKGBUILD
 updpkgsums
 makepkg --printsrcinfo > .SRCINFO
-#git add -p
-#git commit -m "v$VER"
+git add -p
+git commit -m "v$VER"
