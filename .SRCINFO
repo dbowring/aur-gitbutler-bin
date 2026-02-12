@@ -8,6 +8,7 @@ pkgbase = gitbutler-bin
 	depends = libayatana-appindicator
 	depends = webkit2gtk-4.1
 	depends = gtk3
+	conflicts = gitbutler
 	source = https://releases.gitbutler.com/releases/release/0.19.1-2847/linux/x86_64/GitButler_0.19.1_amd64.deb
 	source = LICENSE.md
 	sha256sums = 6f783c8394664991785254d9448d002688f2e4a1071216a4a90c7644c5e2ff7d
