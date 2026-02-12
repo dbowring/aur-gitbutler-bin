@@ -1,6 +1,7 @@
 # Maintainer: Daniel Bowring <aur@daniel.bowring.email>
 # Maintainer: Daniele Paolella <danpaolella@gmail.com>
 pkgname=gitbutler-bin
+provides=(${pkgname//-bin/""})
 conflicts=(${pkgname//-bin/""})
 pkgver=0.19.1
 pkgrel=1
