@@ -1,6 +1,6 @@
 pkgbase = gitbutler-bin
 	pkgdesc = Version control client, backed by Git, powered by Tauri/Rust/Svelte
-	pkgver = 0.19.13
+	pkgver = 0.20.0
 	pkgrel = 1
 	url = https://gitbutler.com/
 	arch = x86_64
@@ -10,9 +10,9 @@ pkgbase = gitbutler-bin
 	depends = gtk3
 	provides = gitbutler
 	conflicts = gitbutler
-	source = https://releases.gitbutler.com/releases/release/0.19.13-3047/linux/x86_64/GitButler_0.19.13_amd64.deb
+	source = https://releases.gitbutler.com/releases/release/0.20.0-3069/linux/x86_64/GitButler_0.20.0_amd64.deb
 	source = LICENSE.md
-	sha256sums = 01e0128b489a8eed20430b05281ecd797c2b614a585af5dfe03dbd315474106f
+	sha256sums = ba7ad1c6542d12970afc3d9be0d38f20bc1de4ebdebf668098b7ada6a2893f76
 	sha256sums = 2a3154bf44e0b219014291b96249082f3305844a1d73796741468c8128c2829e
 
 pkgname = gitbutler-bin
